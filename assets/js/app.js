@@ -45,8 +45,6 @@ data.map(c=>{
     title="${c.flags.alt}">
   <div class="card-body">
     <h5 class="card-title mb-1">${c.name.common ||c.nmae.official }</h5>
-    <p class="card-text text-muted mb-0">
-    <small>Code: <strong>${c.cca2}</strong></small></p>
   </div>
 </div>`
 
